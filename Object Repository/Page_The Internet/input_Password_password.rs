@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_File Uploader_file</name>
+   <name>input_Password_password</name>
    <tag></tag>
-   <elementGuidId>6a363dc9-f536-4314-b39f-d2dd1e67abb9</elementGuidId>
+   <elementGuidId>2e338cf9-09c4-46f3-a156-508c01999607</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#file-upload</value>
+         <value>#password</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='file-upload']</value>
+         <value>//input[@id='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5439ad56-aae4-4c3c-84ba-4f7b35dfd9e2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>file-upload</value>
-      <webElementGuid>7bedf8a3-38bf-474c-af64-b049202bb73c</webElementGuid>
+      <webElementGuid>a6e07130-89c7-4328-bf82-60e5df5ac47f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>file</value>
-      <webElementGuid>ad454362-3d14-4aed-9d78-2ea74351db01</webElementGuid>
+      <value>password</value>
+      <webElementGuid>a9d1317a-32a2-4fe5-ab2b-5e3deb225aec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>file</value>
-      <webElementGuid>2373aece-567e-4a3e-b46e-2c0ede37e0ff</webElementGuid>
+      <value>password</value>
+      <webElementGuid>b819401c-c2c9-44f2-9771-1a352b08d250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>6f51a668-0f49-4c5a-981a-d45110e8c153</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;file-upload&quot;)</value>
-      <webElementGuid>e6b2d28b-5251-4693-9db4-1f8a5579dc8e</webElementGuid>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>9d780b96-ceca-4102-9506-f780d51d1ed5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='file-upload']</value>
-      <webElementGuid>e8d895a1-1f52-413f-b2c7-049637832866</webElementGuid>
+      <value>//input[@id='password']</value>
+      <webElementGuid>15f52638-b964-4e7d-8309-fa833667547e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content']/div/form/input</value>
-      <webElementGuid>1dc7591c-4090-4cbd-9429-eb1ca8f18ccd</webElementGuid>
+      <value>//form[@id='login']/div[2]/div/input</value>
+      <webElementGuid>87929bc3-7f72-4219-826a-b33281583350</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>4de6dbdf-7665-4d8f-94db-1db33d968b42</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>71a27003-4789-493a-b023-4d7efe7da5ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'file-upload' and @type = 'file' and @name = 'file']</value>
-      <webElementGuid>24d65688-8704-4cc1-ae3e-e10993c90803</webElementGuid>
+      <value>//input[@type = 'password' and @name = 'password' and @id = 'password']</value>
+      <webElementGuid>71618267-da0c-4eb3-be53-9f331a4a61a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
