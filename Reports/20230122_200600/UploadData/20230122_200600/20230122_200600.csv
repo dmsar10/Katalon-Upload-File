@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UploadData,Chrome 109.0.0.0,,,2023-01-22 20:06:04,2023-01-22 20:06:31,27.153s,PASSED
+,,,,,,,
+Test Cases/TC02-Uploading file(DDT),Chrome 109.0.0.0,,Upload,2023-01-22 20:06:04,2023-01-22 20:06:17,13.056s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-22 20:06:05,2023-01-22 20:06:08,2.606s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-22 20:06:08,2023-01-22 20:06:11,3.268s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-22 20:06:11,2023-01-22 20:06:12,1.056s,PASSED
+"uploadFile(findTestObject(""Page_The Internet/input_File Uploader_file""), Path)",Chrome 109.0.0.0,,,2023-01-22 20:06:12,2023-01-22 20:06:12,0.482s,PASSED
+"click(findTestObject(""Page_The Internet/input_File Uploader_file-submit""))",Chrome 109.0.0.0,,,2023-01-22 20:06:12,2023-01-22 20:06:16,3.942s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_The Internet/h3_File Uploaded""), ""File Uploaded!"")",Chrome 109.0.0.0,,,2023-01-22 20:06:16,2023-01-22 20:06:17,0.350s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-22 20:06:17,2023-01-22 20:06:17,0.635s,PASSED
+,,,,,,,
+Test Cases/TC02-Uploading file(DDT),Chrome 109.0.0.0,,Upload,2023-01-22 20:06:17,2023-01-22 20:06:31,13.433s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-22 20:06:17,2023-01-22 20:06:18,1.154s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-22 20:06:18,2023-01-22 20:06:22,3.047s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-22 20:06:22,2023-01-22 20:06:23,1.058s,PASSED
+"uploadFile(findTestObject(""Page_The Internet/input_File Uploader_file""), Path)",Chrome 109.0.0.0,,,2023-01-22 20:06:23,2023-01-22 20:06:23,0.495s,PASSED
+"click(findTestObject(""Page_The Internet/input_File Uploader_file-submit""))",Chrome 109.0.0.0,,,2023-01-22 20:06:23,2023-01-22 20:06:29,6.186s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_The Internet/h3_File Uploaded""), ""File Uploaded!"")",Chrome 109.0.0.0,,,2023-01-22 20:06:29,2023-01-22 20:06:30,0.341s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-22 20:06:30,2023-01-22 20:06:31,1.143s,PASSED

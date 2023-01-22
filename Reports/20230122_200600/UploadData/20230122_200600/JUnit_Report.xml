@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UploadData" time="27.153" tests="2" failures="0" errors="0">
+   <testsuite name="UploadData" tests="2" failures="0" errors="0" time="27.153" skipped="0" timestamp="2023-01-22 20:06:04" hostname="dimas - LAPTOP-6BQ6KBE7" id="Test Suites/UploadData">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dimas\\git\\Katalon-Upload-File\\Reports\\20230122_200600\\UploadData\\20230122_200600"/>
+         <property name="logFiles" value="C:\\Users\\dimas\\git\\Katalon-Upload-File\\Reports\\20230122_200600\\UploadData\\20230122_200600\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dimas - LAPTOP-6BQ6KBE7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="a211da0bc331a4954a762e6edfefdd7d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC02-Uploading file(DDT)" time="13.056" classname="Test Cases/TC02-Uploading file(DDT)" status="PASSED">
+         <system-out><![CDATA[2023-01-22 20:06:04 - [TEST_CASE][PASSED] - Test Cases/TC02-Uploading file(DDT): Test Cases/TC02-Uploading file(DDT)
+
+2023-01-22 20:06:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-22 20:06:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-22 20:06:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-22 20:06:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-22 20:06:08 - [TEST_STEP][PASSED] - navigateToUrl("http://the-internet.herokuapp.com/"): Navigate to 'http://the-internet.herokuapp.com/' successfully
+
+2023-01-22 20:06:11 - [MESSAGE][PASSED] - Navigate to 'http://the-internet.herokuapp.com/' successfully
+
+2023-01-22 20:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_File Upload")): Object: 'Object Repository/Page_The Internet/a_File Upload' is clicked on
+
+2023-01-22 20:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_File Upload' is clicked on
+
+2023-01-22 20:06:12 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_The Internet/input_File Uploader_file"), Path): File 'D:\QA\Kelas 2\Tugas'\upload\Capture.png' sent to object: 'Object Repository/Page_The Internet/input_File Uploader_file'
+
+2023-01-22 20:06:12 - [MESSAGE][PASSED] - File 'D:\QA\Kelas 2\Tugas'\upload\Capture.png' sent to object: 'Object Repository/Page_The Internet/input_File Uploader_file'
+
+2023-01-22 20:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Internet/input_File Uploader_file-submit")): Object: 'Object Repository/Page_The Internet/input_File Uploader_file-submit' is clicked on
+
+2023-01-22 20:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/input_File Uploader_file-submit' is clicked on
+
+2023-01-22 20:06:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_The Internet/h3_File Uploaded"), "File Uploaded!"): Actual text and expected text of test object 'Object Repository/Page_The Internet/h3_File Uploaded' are matched.
+
+2023-01-22 20:06:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_The Internet/h3_File Uploaded' are matched.
+
+2023-01-22 20:06:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-22 20:06:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Uploading file(DDT)" time="13.433" classname="Test Cases/TC02-Uploading file(DDT)" status="PASSED">
+         <system-out><![CDATA[2023-01-22 20:06:17 - [TEST_CASE][PASSED] - Test Cases/TC02-Uploading file(DDT): Test Cases/TC02-Uploading file(DDT)
+
+2023-01-22 20:06:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-22 20:06:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-22 20:06:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-22 20:06:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-22 20:06:18 - [TEST_STEP][PASSED] - navigateToUrl("http://the-internet.herokuapp.com/"): Navigate to 'http://the-internet.herokuapp.com/' successfully
+
+2023-01-22 20:06:22 - [MESSAGE][PASSED] - Navigate to 'http://the-internet.herokuapp.com/' successfully
+
+2023-01-22 20:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_The Internet/a_File Upload")): Object: 'Object Repository/Page_The Internet/a_File Upload' is clicked on
+
+2023-01-22 20:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/a_File Upload' is clicked on
+
+2023-01-22 20:06:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_The Internet/input_File Uploader_file"), Path): File 'D:\QA\Kelas 2\Tugas'\upload\petrikdrum.png' sent to object: 'Object Repository/Page_The Internet/input_File Uploader_file'
+
+2023-01-22 20:06:23 - [MESSAGE][PASSED] - File 'D:\QA\Kelas 2\Tugas'\upload\petrikdrum.png' sent to object: 'Object Repository/Page_The Internet/input_File Uploader_file'
+
+2023-01-22 20:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_The Internet/input_File Uploader_file-submit")): Object: 'Object Repository/Page_The Internet/input_File Uploader_file-submit' is clicked on
+
+2023-01-22 20:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The Internet/input_File Uploader_file-submit' is clicked on
+
+2023-01-22 20:06:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_The Internet/h3_File Uploaded"), "File Uploaded!"): Actual text and expected text of test object 'Object Repository/Page_The Internet/h3_File Uploaded' are matched.
+
+2023-01-22 20:06:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_The Internet/h3_File Uploaded' are matched.
+
+2023-01-22 20:06:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-22 20:06:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-22 20:06:04 - [TEST_SUITE][PASSED] - UploadData: Test Cases/TC02-Uploading file(DDT)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

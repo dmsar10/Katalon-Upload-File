@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-Uploading file(DDT)</name>
+   <tag>Upload</tag>
+   <comment></comment>
+   <testCaseGuid>e845ebc1-4b3f-4286-ac2b-ecb1657c694e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4707598-4efb-48b5-bd1d-fbc4c9bf9b69</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\QA\\Kelas 2\\Tugas\'\\upload\\Capture.png'</defaultValue>
+      <description></description>
+      <id>d4707598-4efb-48b5-bd1d-fbc4c9bf9b69</id>
+      <masked>false</masked>
+      <name>Path</name>
+   </variable>
+</TestCaseEntity>
